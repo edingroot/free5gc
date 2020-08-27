@@ -7,4 +7,4 @@ for NF in ${NF_LIST}; do
 done
 
 sudo ip link del upfgtp0
-
+sudo rm /dev/mqueue/free5gc_upfmq_*
